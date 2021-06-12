@@ -372,15 +372,16 @@ button p {
 }
 .accord-text {
     border: 1px solid rgb(255, 255, 255);
-    height: 0;
+    display: none;
 }
+ю
 .accord-input:checked ~ .accord-text{
     transition: 1s;
     border: 1px solid #e5e5e5;
-    height: 169px;
     padding: 20px;
+    display: block;
+    height: 169px;
 }
-
 .accord-content {
     overflow-y: scroll;
     height: 100%;
@@ -510,10 +511,10 @@ button p {
     display: flex;
 }
 
-.icons {
+.our-team-icons {
     display: flex;
 }
-.icons > .icon {
+.our-team-icons > .our-team-icon {
     height: 55px;
     width: 55px;
     display: flex;
@@ -521,18 +522,18 @@ button p {
     justify-content: center;
     background-color: #fce38a;
 }
-.icon:not(.icon:last-child) {
+.our-team-icon:not(.our-team-icon:last-child) {
     border-right: 1px solid #f38181;
 }
 
-.icon > a {
+.our-team-icon > a {
     text-decoration: none;
 }
-.icon:hover {
+.our-team-icon:hover {
     background-color: #f38181;
     transition: 0.5s;
 }
-.icon:hover .fa-facebook-f, .icon:hover .fa-twitter, .icon:hover .fa-pinterest-p, .icon:hover .fa-instagram {
+.our-team-icon:hover .fa-facebook-f, .our-team-icon:hover .fa-twitter, .our-team-icon:hover .fa-pinterest-p, .our-team-icon:hover .fa-instagram {
     color: white;
 }
 .fa-facebook-f, .fa-twitter, .fa-pinterest-p, .fa-instagram {
@@ -777,4 +778,7 @@ button p {
     font-size: 14px;
     font-weight: 700;
     color: #333;
+}
+.vie img {
+    height: 100%;
 }
