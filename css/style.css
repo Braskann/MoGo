@@ -801,6 +801,7 @@ button p {
 .blog-heading + p {
     font-size: 15px;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 .vie {
     padding-top: 20px;
